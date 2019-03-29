@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_black_bg">
+
+    <com.jojo.devicetool.widget.CommonItem
+        android:id="@+id/ci_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:common_item_divider_enabled="true"
+        app:common_item_divider_left="0dp"
+        app:common_item_divider_right="0dp"
+        app:common_item_left_text_text_color="@color/white"
+        app:common_item_right_text_text_color="@color/color_golden"
+        tools:common_item_left_text="aaa"
+        tools:common_item_right_text="bbbbb" />
+</FrameLayout>

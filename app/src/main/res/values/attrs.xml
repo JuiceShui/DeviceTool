@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--CommonItem-->
+    <declare-styleable name="CommonItem">
+        <attr name="common_item_padding_left" format="dimension" />
+        <attr name="common_item_padding_right" format="dimension" />
+
+        <attr name="common_item_left_text" format="string" />
+        <attr name="common_item_left_tip" format="string" />
+        <attr name="common_item_right_text" format="string" />
+
+        <attr name="common_item_left_text_text_size" format="dimension" />
+        <attr name="common_item_left_tip_text_size" format="dimension" />
+        <attr name="common_item_right_text_text_size" format="dimension" />
+
+        <attr name="common_item_left_text_text_color" format="reference" />
+        <attr name="common_item_left_tip_text_color" format="reference" />
+        <attr name="common_item_right_text_text_color" format="reference" />
+
+        <attr name="common_item_left_icon" format="reference" />
+        <attr name="common_item_right_icon" format="reference" />
+        <attr name="common_item_left_icon_width" format="dimension" />
+        <attr name="common_item_right_icon_width" format="dimension" />
+
+        <!--针对左边元素space设定为marginRight，针对右边元素space为marginLeft-->
+        <attr name="common_item_left_icon_space" format="dimension" />
+        <attr name="common_item_right_icon_space" format="dimension" />
+        <attr name="common_item_left_text_space" format="dimension" />
+        <attr name="common_item_left_tip_space" format="dimension" />
+        <attr name="common_item_right_text_space" format="dimension" />
+        <attr name="common_item_badge_space" format="dimension" />
+
+        <!--是否显示divider-->
+        <attr name="common_item_divider_enabled" format="boolean" />
+        <attr name="common_item_divider_left" format="dimension" />
+        <attr name="common_item_divider_right" format="dimension" />
+
+        <attr name="common_item_badge_number" format="integer" />
+        <attr name="common_item_badge_size" format="dimension" />
+        <attr name="common_item_badge_text_size" format="dimension" />
+        <!--fontFamily-->
+        <attr name="common_item_left_text_font_family" format="reference" />
+        <attr name="common_item_right_text_font_family" format="reference" />
+        <attr name="fontPath" format="string" />
+        <attr name="leftFontPath" format="string" />
+    </declare-styleable>
+
+</resources>

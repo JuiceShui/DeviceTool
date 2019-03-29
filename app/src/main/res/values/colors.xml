@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#F5F6FA</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_golden">#e8f8f807</color>
+    <color name="color_black_bg">#66000000</color>
+
+    <!--通用-->
+    <color name="yy_default_text_strong">#465461</color>
+    <color name="yy_default_text_weak">#ACAFB3</color>
+    <color name="not_in_view_sat">#11000000</color>
+    <color name="gray">#ff888888</color>
+    <color name="red">#d50000</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#009d00</color>
+
+    <color name="color_normal">#cc000000</color>
+
+    <color name="textColor">#3af3ff</color>
+    <color name="buttonBackground">#3af3ff</color>
+    <color name="textColor2">#242e3a</color>
+    <color name="colorPrimary2">#1d252e</color>
+</resources>

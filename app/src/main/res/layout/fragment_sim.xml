@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.jojo.devicetool.widget.CommonItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:common_item_divider_enabled="true"
+            app:common_item_left_text="@string/sim_card_title"
+            app:common_item_left_text_text_size="@dimen/text_size_title"
+            app:common_item_right_icon="@drawable/ico_open_eye" />
+
+        <LinearLayout
+            android:id="@+id/ll_sim_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.jojo.devicetool.widget.CommonItem
+                android:id="@+id/sim_imei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:common_item_left_text="@string/sim_card_imei" />
+
+            <com.jojo.devicetool.widget.CommonItem
+                android:id="@+id/sim_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:common_item_left_text="@string/sim_card_company" />
+
+            <com.jojo.devicetool.widget.CommonItem
+                android:id="@+id/sim_imsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:common_item_left_text="@string/sim_card_imsi" />
+
+            <com.jojo.devicetool.widget.CommonItem
+                android:id="@+id/sim_iccid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:common_item_left_text="@string/sim_card_iccid" />
+        </LinearLayout>
+
+        <com.jojo.devicetool.widget.CommonItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:common_item_divider_enabled="true"
+            app:common_item_left_text="@string/sim_card_company_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_sim_company_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                tools:src="@drawable/ico_cn_mobile" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/noraml_margin"
+                android:orientation="vertical">
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_sim_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/sim_card_company_name" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_sim_mcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/sim_card_company_mcc" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_sim_mnc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/sim_card_company_mnc" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" />
+    </LinearLayout>
+</ScrollView>

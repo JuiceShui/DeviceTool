@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/device_hard_ware_title"
+                android:textColor="@color/color_normal"
+                android:textSize="@dimen/text_size_title" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_brand"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_model"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_hardware"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_hardware"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_board"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_board"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_abi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_abi"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_id"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_display"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_product"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_device"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_device"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_jidai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_jidai"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_serial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_serial"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_screen_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_screen_size"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_screen_pixels"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_screen_pixels"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_dpi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_screen_dpi"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_ram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_ram"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_rom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/device_rom"
+                    app:common_item_right_text="@string/loading" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/battery_title"
+                android:textColor="@color/color_normal"
+                android:textSize="@dimen/text_size_title" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_status"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_type"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_health"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_health"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_power"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_power"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_percent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_percent"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_u"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_U"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_temp"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bat_volume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/battery_volume"
+                    app:common_item_right_text="@string/loading" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/system_title"
+                android:textColor="@color/color_normal"
+                android:textSize="@dimen/text_size_title" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_sdk_int"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_sdk_int"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_release"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_release"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_version_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_version_name"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_bootloader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_bootloader"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_java_vm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_java_vm"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_os_arc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_os_architecture"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_os_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_os_version"
+                    app:common_item_right_text="@string/loading" />
+
+                <com.jojo.devicetool.widget.CommonItem
+                    android:id="@+id/ci_runtime_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:common_item_left_text="@string/system_runtime_version"
+                    app:common_item_right_text="@string/loading" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

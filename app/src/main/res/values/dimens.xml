@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_padding">16dp</dimen>
+    <dimen name="noraml_margin">16dp</dimen>
+    <!--CommonItem-->
+    <dimen name="yy_common_item_height">48dp</dimen>
+    <dimen name="yy_common_item_padding_h">16dp</dimen>
+    <dimen name="yy_common_item_left_icon_width">30dp</dimen>
+    <dimen name="yy_common_item_left_icon_space">14dp</dimen>
+    <dimen name="yy_common_item_right_icon_space">12dp</dimen>
+    <dimen name="yy_common_item_text_size_normal">15sp</dimen>
+    <dimen name="yy_common_item_text_size_small">13sp</dimen>
+    <dimen name="yy_common_item_divider_left">16dp</dimen>
+    <dimen name="yy_common_item_divider_right">16dp</dimen>
+    <dimen name="yy_common_item_badge_size">20dp</dimen>
+    <dimen name="yy_common_item_badge_text_size">12sp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_content">14sp</dimen>
+</resources>
